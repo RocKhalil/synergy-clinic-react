@@ -1,13 +1,20 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Synergy Clinic - Care. Strength. Nutrition." },
+    {
+      name: "description",
+      content:
+        "Synergy Clinic - Your holistic health partner combining physical well-being, nourishment, and support.",
+    },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Empty landing page */}
+    </div>
+  );
 }
