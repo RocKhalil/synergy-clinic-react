@@ -1,16 +1,16 @@
 export default function App() {
   return (
-    <div className="min-h-screen bg-white flex flex-col">
+    <div className="min-h-dvh bg-white flex flex-col overflow-hidden">
       {/* Main Content */}
-      <main className="flex-1 flex items-center justify-center px-4 py-12">
+      <main className="flex-1 flex items-center justify-center px-4 py-6 md:py-12 overflow-auto">
         <div className="max-w-2xl w-full text-center">
           {/* Logo */}
           <div className="mb-6 animate-fade-in">
-            <div className="w-md mx-auto mb-4">
+            <div className="w-48 md:w-64 mx-auto mb-4">
               <img
                 src="/logo.png"
                 alt="Synergy Clinic Logo"
-                className="w-full h-full object-contain"
+                className="w-full h-auto object-contain"
               />
             </div>
 
